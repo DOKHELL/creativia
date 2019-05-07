@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-size: 16px;
+  line-height: 22px;
+  color: $text;
+  background-color: #fff;
+  font-weight: 400;
+  font-family: $lato;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  margin: 0;
+  font-family: $rele;
+  font-weight: 700;
+  margin-bottom: 40px;
+  span{
+    color: $red;
+  }
+}
+p{
+  margin: 0 0 95px 0;
+  font-family: $lato;
+  font-weight: 700;
+}
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 30px;
+}
+h3{
+  font-weight: 500;
+  font-size: 20px;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  outline: none;
+}
+input, button{
+  outline: none;
+  border: none;
+}
+button{
+  cursor: pointer;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

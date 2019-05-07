@@ -1,0 +1,13 @@
+.btn{
+    padding: 14px 36px;
+    font-family: $rele;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #131313;
+    transition: opacity .7s ease;
+    &:hover{
+        opacity: .8;
+    }
+}
